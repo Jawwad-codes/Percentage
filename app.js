@@ -8,10 +8,10 @@ let com = +document.querySelector('#com').value;
 var obtain=chem+phy+Maths+com;
     var percentage = (obtain/400)*100;
     var gd='';
-    if(percentage>80 && percentage<100){
+    if(percentage>80 && percentage<=100){
         gd='A+'
     }
-    else if(percentage>70 && percentage<80){
+    else if(percentage>70 && percentage<=80){
         gd='A'
     }
     else if(percentage>60 && percentage<70){
