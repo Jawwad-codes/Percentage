@@ -1,6 +1,6 @@
 
 function myfunc(){
-    let chem = +document.querySelector('#chm').value;
+let chem = +document.querySelector('#chm').value;
 let phy = +document.querySelector('#phy').value;
 let Maths = +document.querySelector('#eng').value;
 let com = +document.querySelector('#com').value;
